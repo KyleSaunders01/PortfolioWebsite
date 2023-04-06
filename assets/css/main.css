@@ -2796,9 +2796,62 @@ input, select, textarea {
 				margin-top: 0;
 				
 			}
-	.contactimage{
-		width: 0em
+
+.contactimage{
+        width: 50vw;
+    }
+
+    @media screen and (min-width: 736px) {
+        .contactimage{
+            width: 80vw;
+        }
+    }
+
+
+    @media screen and (max-width: 736px) {
+        .contactimage{
+            width: 86vw;
+        }
+    }
+
+	@media screen and (min-width: 981px) {
+        .contactimage{
+            width: 53vw;
+        }
 	}
+
+    @media screen and (min-width: 1280px) {
+        .contactimage{
+            width: 40vw;
+        }
+	}
+
+.videos{
+	width:38vw;
+	height:20vw;
+}
+
+@media screen and (min-width: 1521px) {
+	.videos{
+		width: 34vw;
+		height:20vw;
+	}
+}
+
+@media screen and (max-width: 1682px) {
+	.videos{
+		width: 34vw;
+		height:20vw;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.videos{
+		width: 33vw;
+		height:20vw;
+	}
+}
+    
 
 /* Icons */
 
